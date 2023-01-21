@@ -1,0 +1,111 @@
+.container{
+display:flex;
+justify-content: space-between;
+margin: 55px;
+}
+.left{
+
+}
+.right{
+    
+    
+}
+.text-field{
+    padding: 4px;;
+}
+.text-field::after{
+    content: ' \002A';
+    color:red;
+}
+#text{
+    border:none;
+    padding: 10px;  
+    border: 1px solid #808080;
+border-radius: 5px;   
+}
+.slect-field{
+    margin-top:24px;
+    padding-bottom: 6px;
+}
+.material-symbols-rounded{
+    color:white;
+    position: relative;
+    background-color: #808080;
+    border-radius: 20px;
+    position:relative;
+    top:6px;
+}
+.options{
+    border:1px solid #808080;
+    width:100%;
+    padding: 10px;
+    border-radius:5px ;
+}
+.text-area{
+    margin-top:24px;
+    padding-bottom: 6px;
+}
+textarea{
+    border:1px solid #808080;
+    border-radius:5px;
+    width:99%;
+    height: 100px;
+    resize:vertical;
+    
+    
+}
+.adds-on{
+    margin-top: 24px;
+    padding-bottom: 6px;
+}
+.adds-on::after{
+    content: ' \002A';
+    color:red;
+}
+.adds--on{
+    width:98%;
+    padding: 5px;  
+    border: 1px solid #808080;
+border-radius: 5px;  
+display: flex;
+justify-content:space-between;   
+}
+#input-text{
+    border:none;
+}
+button{
+    margin:0px;
+    padding: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#search{
+    border:none;
+    padding: 10px;  
+border-radius: 5px; 
+}
+.material-symbols-outlined{
+    color:#808080;
+    position: relative;
+    top:10px;
+    margin-left:4px; 
+}
+.bar-icon{
+    margin-top:24px;
+   border: 1px solid #808080;
+   border-radius: 5px;
+}
+.chech-box{
+    padding: 20px;
+    padding-left: 0px;
+}
